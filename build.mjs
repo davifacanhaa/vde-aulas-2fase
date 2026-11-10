@@ -7,10 +7,10 @@ import { AREAS } from "./config.mjs";
 const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-// Versões geradas. v1 = completa (raiz). v2 = sem o botão de vendas (/v2/...).
+// Versões geradas. v1 = sem o botão de vendas (raiz). v2 = com o botão (/v2/...).
 const VERSOES = [
-  { nome: "v1", base: "", botao: true },
-  { nome: "v2", base: "/v2", botao: false },
+  { nome: "v1", base: "", botao: false },
+  { nome: "v2", base: "/v2", botao: true },
 ];
 let V = VERSOES[0]; // versão sendo gerada
 

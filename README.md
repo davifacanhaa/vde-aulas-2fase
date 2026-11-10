@@ -4,7 +4,7 @@ Páginas estáticas com uma aula experimental por área (Trabalho, Constituciona
 
 - `config.mjs`: áreas, embeds do Panda (um por bloco), professores e link da turma.
 - `node build.mjs`: gera `/<slug>/index.html` para cada área e `/index.html` (home de escolha).
-- Duas versões (`VERSOES` no build.mjs): v1 na raiz, completa; v2 em `/v2/...`, igual mas sem o botão de vendas.
+- Duas versões (`VERSOES` no build.mjs): v1 na raiz, sem o botão de vendas; v2 em `/v2/...`, igual mas com o botão.
 - `assets/style.css` e `assets/player.js`: estilo e troca de blocos da playlist.
 - Botão de vendas: página da turma no site, âncora `#purchase-section` (preço e cupom sempre os vigentes).
 
